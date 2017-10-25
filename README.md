@@ -5,3 +5,5 @@ Short-cut for the plugin is : Ctrl + alt + O. Code output will be in next push.
 Though, there are some modules from npm, one has to import before using. 
 
 Happy Coding !
+
+## If needed more information about project work refer => info.text. Sorry for good format but well informative.
