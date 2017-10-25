@@ -1,0 +1,48 @@
+//What we need
+1. Javascript Programming
+2. Promises
+3. Http, requests, npm
+
+//request -- download()
+//promise -- Promise(response, reject); asynchronous operations
+//cheerio -- scrape(html)
+//google - search(query, language), google(searchString)
+
+//Useful commands w/ Command pallete
+Ctrl + Shift + P ->Window:Reload 
+				 ->Package Generator
+
+//use babel --> is a compiler
+Why let over var ?
+//let allows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the var keyword, which defines a variable globally, or locally to an entire function regardless of block scope.It binds fresh value rather than keeping an old reference
+
+//Package Generator creates a well directory atom plugin for you
+
+in lib/
+//toggle is a function exported by the module. It uses a ternary operator to call show and hide on the modal panel based on its visibility. modalPanel is an instance of
+Panel, a UI element provided by the
+Atom API.
+//We declare modalPanel inside export default, which lets us access it as an instance variable with this
+
+()=> Anonymous function, called whenever the command is run, also example of event driven programming
+
+//activate is called when the package is initially loaded by Atom.
+This function is used to initialize objects such as user interface
+elements needed by the package, and to subscribe handler functions to package
+commands.
+//deactivate is called when the package is deactivated, for example, when
+the editor is closed or refreshed by the user.
+
+//Activation commands in package.json
+lazy loading mechanism and useful when package ain't have to loaded on startup. Lazy loading is a concept where we delay the loading of the object until the point where we need it. Putting in simple words, on demand object loading rather than loading objects unnecessarily. hence, atom run certain commands when user requests them.
+
+//Triggered commands
+The context-menu object lets us define new items in the right-click menu. found in 'menu-->.json'
+
+//commands can also be triggered with keyboard shortcuts, defined with JSON files in the keymaps directory.
+
+//Status Code 200 OK
+
+//Event-Driven Programming
+In an event-driven application, there is generally a main loop that listens for events, and then triggers a callback function when one of those events is detected. Event-driven programming is the dominant paradigm used in graphical user interfaces 
+
