@@ -7,3 +7,5 @@ Though, there are some modules from npm, one has to import before using.
 Happy Coding !
 
 ## If needed more information about project work refer => info.text. Sorry for good format but well informative.
+
+![Alt Text](https://media.giphy.com/media/l2QDO989bP4Y4oEso/giphy.gif)
